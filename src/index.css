@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  /* Semantic color tokens mapped to your palette */
+  --color-sand-50: #f9f8f6;
+  --color-sand-100: #efe9e3;
+  --color-sand-200: #d9cfc7;
+  --color-sand-300: #c9b59c;
+
+  /* Tag-specific semantic mappings (optional convenience tokens) */
+  --color-tag-bg: #f9f8f6;
+  --color-tag-border: #d9cfc7;
+  --color-tag-accent: #c9b59c;
+  --color-tag-muted: #efe9e3;
+}

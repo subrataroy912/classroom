@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { Route, Router, Routes } from 'react-router'
+import Root from './pages/Root'
 
 function App() {
 
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <Routes>
+      <Route path='/' element={<Root />} />
+      <Route path='*' element={<h1 className='flex items-center justify-center bg-sky-500'>CANT HAVE ANY ROUTE ON THIS URL</h1>} />
+
+    </Routes>
   )
 }
 
